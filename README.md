@@ -18,8 +18,6 @@ Clicky is a React app based on a traditional memory game. Instead of flipping ov
 
 * Click the same image more than once, and you lose!
 
-* Play the game at https://secure-cliffs-38231.herokuapp.com/
-
 -----------------------------------------
 
 
