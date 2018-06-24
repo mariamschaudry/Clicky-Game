@@ -2,7 +2,7 @@
   "name": "clickygame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariamschaudry.github.io/Clicky-Game-React/",
+  "homepage": "https://mariamschaudry.github.io/Clicky-Game/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
