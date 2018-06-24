@@ -1,0 +1,20 @@
+.princessCard {
+    background: white;
+    border-radius: 2px;
+    height: 250px;
+    margin: 1rem;
+    position: relative;
+    width: 250px;
+    /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
+  }
+  
+  .princessCard > .img-container {
+    height: 60%;
+    /* overflow: hidden; */
+    text-align: center;
+    background: white; 
+  }
+  .princessCard > .img-container > img {
+    width: 60%
+  }
+  
