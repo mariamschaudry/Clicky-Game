@@ -71,7 +71,7 @@ class App extends Component {
               clicked: false
           } 
         ],
-        count: 0, 
+        score: 0, 
         topScore: 0
     };
 
@@ -83,14 +83,15 @@ class App extends Component {
 
     if (clicked) {
       console.log("true");
+      alert ("You've already clicked this one! Try again.")
       imageOrder.forEach((img, index) => {
-        imageOrder[index].clicked = false; 
+        imageOrder[index].clicked = false;  
       });
 
       return this.setState({
          image: imageOrder.sort(() => Math.random() - 0.5),
-         topScore: this.state.count,
-         count: 0
+         topScore: this.state.score,
+         score: 0
       })
   }
     else {
@@ -101,7 +102,7 @@ class App extends Component {
         }
       });
       return this.setState({image:imageOrder.sort(() => Math.random() - 0.5), 
-        count: this.state.counter + 1})
+        score: this.state.score + 1})
     }
   };
 
@@ -109,9 +110,11 @@ class App extends Component {
     return (
       <Wrapper>
 
-        <NavBar>
-        <h3>Score={this.state.count}</h3>
-        <h3>topScore={this.state.topScore}</h3>
+        <NavBar score={this.state.score}
+        topScore={this.state.topScore}>
+
+        {/* <h3>Score={this.state.score}</h3>
+        <h3>topScore={this.state.topScore}</h3> */}
         </NavBar>
     
 
