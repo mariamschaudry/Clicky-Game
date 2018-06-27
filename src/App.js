@@ -81,9 +81,10 @@ class App extends Component {
   sortImages = (id, clicked) => {
     const imageOrder = this.state.image;
 
+  // If clicked twice - you lose! //
     if (clicked) {
       console.log("true");
-      alert ("You've already clicked this one! Try again.")
+      alert ("Oh no! It looks like you've already clicked this one! Let's start the game over again.")
       imageOrder.forEach((img, index) => {
         imageOrder[index].clicked = false;  
       });
@@ -94,8 +95,11 @@ class App extends Component {
          score: 0
       })
   }
+
+  // If click only one time, you win! //
     else {
       console.log("false"); 
+      alert("Keep going! Let's see if you can beat your top score!")
       imageOrder.forEach((image, index) => {
         if (id === image.id) {
            imageOrder[index].clicked = true;
