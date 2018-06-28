@@ -1,0 +1,13 @@
+h1.display-4 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 70px; 
+}
+
+h2 {
+    font-size: 40px; 
+}
+
+div.jumbotron {
+    background-color: #ff93ac;
+    color: white; 
+}

@@ -99,7 +99,7 @@ class App extends Component {
   // If click only one time, you win! //
     else {
       console.log("false"); 
-      alert("Keep going! Let's see if you can beat your top score!")
+    //   alert("Keep going! Let's see if you can beat your top score!")
       imageOrder.forEach((image, index) => {
         if (id === image.id) {
            imageOrder[index].clicked = true;
