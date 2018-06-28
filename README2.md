@@ -30,6 +30,8 @@ React based memory game
 
 ![screencapture-localhost-3000-2018-06-27-20_15_28](https://user-images.githubusercontent.com/32858340/42006302-02c558de-7a47-11e8-89d0-d74d6b92d271.jpg)
 
+-----------------------------------------
+
 ## Dependencies
     
     "react": "^16.2.0",
