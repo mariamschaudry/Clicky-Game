@@ -1,6 +1,6 @@
 h1.display-4 {
     font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 70px; 
+    font-size: 50px; 
 }
 
 h2 {
@@ -9,5 +9,6 @@ h2 {
 
 div.jumbotron {
     background-color: #ff93ac;
+    height:300px;  
     color: white; 
 }
